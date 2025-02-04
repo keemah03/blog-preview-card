@@ -3,8 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./index.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body
+    class="bg-[hsl(47,88%,63%)] flex items-center justify-center min-h-screen"
+  >
+    <div class="bg-white rounded-xl shadow-lg p-5 relative max-w-sm w-80">
+      <div>
+        <img src="/images/illustration-article.svg" alt="" class="rounded-lg" />
+      </div>
+
+      <div>
+        <!--image-->
+        <div
+          class="bg-[hsl(47,88%,63%)] rounded px-2 py-1 w-25 text-center text-sm font-bold mt-5"
+        >
+          <button>Learning</button>
+        </div>
+        <!--contents-->
+
+        <p class="text-gray-950 text-sm mt-5 font-medium">
+          Published 21 Dec 2023
+        </p>
+        <h2 class="font-bold text-xl mt-5">HTML & CSS foundations</h2>
+        <p class="text-gray-500 mt-3 text-sm">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation
+        </p>
+      </div>
+
+      <div class="flex items-center mt-5">
+        <img src="/images/image-avatar.webp" alt="author's image" class="h-8" />
+        <p class="font-bold text-sm ml-3">Greg Hooper</p>
+      </div>
+    </div>
+  </body>
 </html>
